@@ -1,18 +1,18 @@
+# jQuery before materialize.css for good css loading
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+    
+# Import Google Icon Font
+https://fonts.googleapis.com/icon?family=Material+Icons
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# Import materialize.css
+https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css
+
+# JavaScript at end of body for optimized loading
+https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+ Materialize collapsible (custom name for an accordion)
+An accordion expands and contracts when you click on elements of that, so it reveals more detailed information.
+And we're using that to display our tasks.
+So in the accordion header, or the collapsible header, we'll see the task name and the due date.
+And once expanded, we will display the description associated with that task.
