@@ -4,7 +4,7 @@ https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 # Import Google Icon Font
 https://fonts.googleapis.com/icon?family=Material+Icons
 
-# Import materialize.css
+# Import materialize.css versio 0.100.2
 https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css
 
 # JavaScript at end of body for optimized loading
